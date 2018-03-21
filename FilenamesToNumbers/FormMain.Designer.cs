@@ -45,7 +45,7 @@
             this.buttonSelectFiles.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSelectFiles.Location = new System.Drawing.Point(12, 163);
             this.buttonSelectFiles.Name = "buttonSelectFiles";
-            this.buttonSelectFiles.Size = new System.Drawing.Size(241, 62);
+            this.buttonSelectFiles.Size = new System.Drawing.Size(229, 62);
             this.buttonSelectFiles.TabIndex = 0;
             this.buttonSelectFiles.Text = "Select Files To Rename...";
             this.buttonSelectFiles.UseVisualStyleBackColor = true;
@@ -74,7 +74,7 @@
             0,
             0});
             this.numericUpDownBeginCount.Name = "numericUpDownBeginCount";
-            this.numericUpDownBeginCount.Size = new System.Drawing.Size(130, 20);
+            this.numericUpDownBeginCount.Size = new System.Drawing.Size(118, 20);
             this.numericUpDownBeginCount.TabIndex = 2;
             this.numericUpDownBeginCount.Value = new decimal(new int[] {
             1,
@@ -101,7 +101,7 @@
             this.textBoxPrefix.BackColor = System.Drawing.Color.Gainsboro;
             this.textBoxPrefix.Location = new System.Drawing.Point(124, 33);
             this.textBoxPrefix.Name = "textBoxPrefix";
-            this.textBoxPrefix.Size = new System.Drawing.Size(130, 20);
+            this.textBoxPrefix.Size = new System.Drawing.Size(118, 20);
             this.textBoxPrefix.TabIndex = 4;
             this.textBoxPrefix.TextChanged += new System.EventHandler(this.textBoxPrefix_TextChanged);
             this.textBoxPrefix.Leave += new System.EventHandler(this.textBoxPrefix_Leave);
@@ -136,7 +136,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(265, 237);
+            this.ClientSize = new System.Drawing.Size(253, 237);
             this.Controls.Add(this.labelExample);
             this.Controls.Add(this.labelExampleDesc);
             this.Controls.Add(this.textBoxPrefix);
